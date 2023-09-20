@@ -1,0 +1,125 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy';
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background: #283048;
+    background: linear-gradient(to right, #859398, #283048);
+}
+
+header {
+    padding: 25px;
+    background-color: black;
+    background-color: transparent;
+}
+
+nav ul {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    color: white;
+    gap: 20px;
+    cursor: pointer;
+}
+
+nav ul li {
+    list-style-type: none;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+nav ul button {
+    padding: 5px 10px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    background-color: azure;
+    cursor: pointer;
+
+}
+
+#main {
+    width: 100%;
+    padding: 10px;
+}
+
+#categoryAll {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+#categoryAll button {
+    padding: 10px;
+    font-size: 20px;
+    background-color: gray;
+    color: white;
+    font-weight: bold;
+    width: 170px;
+    height: 50px;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+#categoryAll button:hover {
+    color: #444;
+    background-color: aliceblue;
+}
+
+#main #head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+}
+
+#main #head h1 {
+    font-size: 60px;
+    font-family: "Algerian";
+    color: darkblue;
+}
+
+#general_page {
+    display: flex;
+    /* justify-content:center; */
+    align-items: center;
+    padding: 45px;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+#general_page #card {
+    width: 300px;
+    height: 320px;
+    border-radius: 5px;
+    background-color: rgb(187, 187, 187);
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+
+    /* overflow-x: scroll;
+    scroll-behavior: smooth; */
+}
+
+#card #img_div {
+    width: 250px;
+    height: 150px;
+    border-radius: 5px;
+}
+
+#img_div img {
+    width: 250px;
+    height: 150px;
+}
